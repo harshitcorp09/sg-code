@@ -3,8 +3,8 @@ provider "aws" {
 }
 
 # Security Group 1
-resource "aws_security_group" "sg_1" {
-  name        = "harshit-test-sg-app-server"
+resource "aws_security_group" "sg_hd-test" {
+  name        = "harshit-hdsg"
   description = "Security group for application server"
   vpc_id      = "vpc-0cca2e67"  # Replace with your VPC ID
 
